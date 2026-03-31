@@ -80,7 +80,7 @@ public class UnitController : MonoBehaviour
 
     IEnumerator FollowPath()
     {
-        animator.SetBool("isMoving", true);
+        //animator.SetBool("isMoving", true);
         
         for (int i = 1; i < path.Count; i++)
         {
@@ -97,7 +97,7 @@ public class UnitController : MonoBehaviour
                 yield return new WaitForEndOfFrame();
             }
         }
-        animator.SetBool("isMoving", false);
+        //animator.SetBool("isMoving", false);
     }
 
     //written by chatgpt
